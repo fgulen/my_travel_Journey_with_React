@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary:#F55A5A;
+  --secondary:#FFFFFF;
+  --backgraund:#E5E5E5;
+  --main-width:35rem;
+}
+
+
+
+body{
+  background-color: var(--backgraund);
+}
+
+.main{
+  height: 100%;
+  margin: 20px 40px;
+
+}
+
+.app{
+  width: var(--main-width);
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--secondary);
+  min-height: 525px;
+}
+
+.navbar{
+  background: var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  height: 55px;
+
+}
+
+.logo-text{
+  margin-left: 12px;
+  font-weight: lighter;
+}
+.land-google{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.google-link{
+  margin-left: 20px;
+  font-size: 10.24px;
+  color: darkgray;
+}
+
+.main-pic-body{
+  display: flex;
+  flex-direction: row;
+}
+
+.main-text{
+  font-size: 10px;
+  line-height: 16px;
+}
+.main-land{
+  text-transform: uppercase;
+  font-size: 10.24px;
+  margin-left: 5px;
+}
+
+.main-place{
+  font-weight: bold;
+  font-size: 25px;
+margin-bottom: 15px;
+}
+
+.main-date{
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.text-wrapper{
+  margin-left: 13px;
+}
+
+.footer{
+ text-align: center;
+ padding-top: 0px;
+ padding-bottom: 20px;
+}
